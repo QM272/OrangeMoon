@@ -6,18 +6,12 @@
 #importing breaks between text
 import time
 
-#importing music
-import winsound
-
-
 #Pre-defining options for the user
 yesorno = ["yes", "no"]
 options = ["a", "b", "c"]
 
 #final function used in the game. Asks end user if they will play again.
 def playgame_again():
-     #Stopping the music
-     winsound.PlaySound(None, winsound.SND_PURGE)
      print ("")
      answer = ""
      while answer not in yesorno:
@@ -29,13 +23,6 @@ def playgame_again():
                print ("")
                print ("PROGRAMMED BY MAHEEN A. QURESHI, 2020")
                print ("")
-               time.sleep (2)
-               print ("NONE OF THE MUSIC IN THIS GAME BELONGS TO ME.")
-               print ("ASCII art for items: credits go to respective artists.")
-               print ("Levels settings losely inspired by the following songs: ")
-               print ("MAMAMOO - Piano Man, MONSTA X - Dramarama, STRAY KIDS - Miroh")
-               print ("ATEEZ - Illusion, THE BOYZ - DDD.")
-               print ("Original songs and ideas belong to each group.")
                time.sleep (2)
                print ("TYFUMP")
           elif answer == "yes":
@@ -50,8 +37,6 @@ def playgame_again():
 
 #GAME OUTRO
 def pianomanReprise():
-     #Music in last level
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\PianoMan.wav', winsound.SND_ASYNC)
      print ("You open your eyes, and find yourself once again back in the Piano Man Inn.")
      print ("The sound of piano music fills your ears, and you look around and notice")
      print ("something strange...")
@@ -90,8 +75,6 @@ def pianomanReprise():
           
 #SIXTH LEVEL IN GAME
 def orangemoonLvlSix():
-     #Music for this level
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\RedMoon.wav', winsound.SND_ASYNC)
      print ("")
      print ("FINAL LEVEL: ORANGE MOON")
      print ("")
@@ -247,8 +230,6 @@ def orangemoonLvlSix():
      
 #FIFTH LEVEL IN GAME
 def gibbousLvlFive():
-     #Music in fifth level
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\DDD.wav', winsound.SND_ASYNC)
      print ("")
      print ("LEVEL FIVE: GIBBOUS")
      print ("")
@@ -389,8 +370,6 @@ def gibbousLvlFive():
                
 #FOURTH LEVEL IN GAME
 def halfmoonLvlFour():
-     #Music for fourth level
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\Illusion.wav', winsound.SND_ASYNC)
      print ("")
      print ("LEVEL FOUR: HALF MOON")
      print ("")
@@ -525,8 +504,6 @@ def halfmoonLvlFour():
                     
 #THIRD LEVEL IN GAME
 def crescentLvlThree():
-     #Music for level three
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\Miroh.wav', winsound.SND_ASYNC)
      print ("")
      print ("LEVEL THREE: CRESCENT")
      print ("")
@@ -774,8 +751,6 @@ def crescentLvlThree():
 
 #SECOND LEVEL IN GAME
 def newmoonLvlTwo():
-     #Playing music for level two
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\Dramarama.wav', winsound.SND_ASYNC)
      print ("")
      print ("LEVEL TWO: NEW MOON")
      print ("")
@@ -1076,8 +1051,6 @@ def gameIntro():
      print ("")
      print ("LEVEL ONE: NO MOON")
      print ("")
-     #Start music for level one
-     winsound.PlaySound('C:\Maheen\PythonWork\gamemusic\PianoMan.wav', winsound.SND_ASYNC)
      print ("You stand in a dingy looking inn. Around you, people sit at")
      print ("tables, with a cheery atmosphere in the air. But wait... why")
      print ("are you here? And how did you get in this place?")
