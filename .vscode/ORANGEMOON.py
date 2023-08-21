@@ -1,6 +1,4 @@
 #Filename: <OrangeMoon.py>
-#Program: This is a text adventure game where the user must find items
-#and make their way back home by finishing the quest.
 #Programmer: Maheen A. Qureshi
 
 #importing breaks between text
@@ -10,7 +8,7 @@ import time
 yesorno = ["yes", "no"]
 options = ["a", "b", "c"]
 
-#final function used in the game. Asks end user if they will play again.
+#Final function used in the game. Asks end user if they will play again.
 def playgame_again():
      print ("")
      answer = ""
@@ -24,7 +22,7 @@ def playgame_again():
                print ("PROGRAMMED BY MAHEEN A. QURESHI, 2020")
                print ("")
                time.sleep (2)
-               print ("TYFUMP")
+               print ("TYFUMP-Thank you for using my program.")
           elif answer == "yes":
                print ("")
                print ("'Let us begin once more...'")
@@ -32,7 +30,7 @@ def playgame_again():
                gameIntro()
           else:
                print ("")
-               print ("I didn't understand...")
+               print ("I didn't understand.")
 
 
 #GAME OUTRO
@@ -42,8 +40,8 @@ def pianomanReprise():
      print ("something strange...")
      print ("")
      time.sleep (5)
-     print ("All the eyes in the room are on you! The >Piano Man< stops playing and walks ")
-     print ("over to the chest, and guestures for you to come forwards.")
+     print ("All the eyes in the room are on you. The >Piano Man< stops playing and walks ")
+     print ("over to the chest, and guestures for you to come forward.")
      time.sleep (4)
      print ("You pull out the five keys, and stick them one by one into the chest.")
      print ("")
@@ -156,14 +154,14 @@ def orangemoonLvlSix():
                          print ("")
                          time.sleep (4)
                          print ("'WHERE ARE YOU GOING, HUH?' The >Pirate King< grabs you and throws you far into the ocean.")
-                         print ("You drown. You were so close...!")
+                         print ("You drown.")
                          print ("")
                          time.sleep (4)
                          print ("GAME OVER.")
                          playgame_again()
                     elif itemlast == "b":
                          print ("")
-                         print ("You grab the >Walkie Talkie< and yell 'HELP!' in it. You hear a 'okay.' back, along ")
+                         print ("You grab the >Walkie Talkie< and yell 'HELP!' in it. You hear an 'okay.' back, along ")
                          print ("with lots of static... The >Pirate King< pulls back his arm and is about to stab you, but ")
                          print ("freezes!")
                          print ("")
@@ -177,11 +175,10 @@ def orangemoonLvlSix():
                          print ("")
                          time.sleep(2)
                          print ("'Thank you!' You gasp. >Rabbit Mask< simply stares.")
-                         print ("Well... some people don't change.")
                          print ("")
                          print ("YOU DEFEATED THE >Pirate King<!")
                          time.sleep (4)
-                         print ("Wiping a few tears (wait where did those come from?) you take the fifth key,")
+                         print ("Wiping a few tears you take the fifth key,")
                          print ("and press the button of the >Time Watch<.")
                          print ("")
                          time.sleep (5)
@@ -211,7 +208,7 @@ def orangemoonLvlSix():
                          pianomanReprise()
                     else:
                          print ("")
-                         print ("I didn't understand that...  ")
+                         print ("I didn't understand.")
                          print ("")
           elif decisionlast == "b":
                print ("")
@@ -265,8 +262,8 @@ def gibbousLvlFive():
                time.sleep (8)
           elif gibbousplace == "b":
                print("")
-               print ("You sit down in the train, and peer out its windows. There dosent seem to be anyone else around.")
-               print ("Turning around, you jump! A man in a rabbit mask sits next to you, staring at your face.")
+               print ("You sit down in the train, and peer out its windows. There doesn't seem to be anyone else around.")
+               print ("Turning around, you jump! A man in a rabbit mask sits next to you, staring.")
                print ("")
                time.sleep (4)
                print ("YOU MET >Rabbit Mask<. CLASS >Unknown<")
@@ -280,12 +277,12 @@ def gibbousLvlFive():
                time.sleep (5)
                print ("Could this be... >The Agents< ??? They're still looking for you! ")
                print ("")
-               print ("Turning down the volume of the >Walkie Talkie<, you look at the person in the >Rabbit Mask<.")
-               print ("They're still staring at you... creepy. The train finally stops and opens its doors.")
+               print ("Turning down the volume of the >Walkie Talkie<, you look back at the person in the >Rabbit Mask<.")
+               print ("who still sits and stares. The train finally stops and opens its doors.")
                print ("")
                time.sleep (6)
                print ("'ARRIVED AT >The Amusement Park< DOORS WILL OPEN ON YOUR LEFT.' Says a cool female voice ")
-               print ("from the speakers. Wanting to get away from the >Rabbit Mask<, you quickly run out and ")
+               print ("from the speakers. Wanting to get away from the >Rabbit Mask<, you run out and ")
                print ("head into a large amusement park. There are two areas in it. The rides and the arcade.")
                print ("")
                rideorarcade = ""
@@ -295,10 +292,10 @@ def gibbousLvlFive():
                          print ("")
                          print ("You want to go to the rides! Roller Coasters are great! But you are unsure ")
                          print ("as to which one to go to. Pulling out your >Compass< you see it pointing at ")
-                         print ("the largest roller coaster in the park...")
+                         print ("the largest roller coaster in the park.")
                          print ("")
                          time.sleep (6.5)
-                         print ("Well, time to ride it. You go and sit down on the frontmost seat, and try pulling ")
+                         print ("Time to ride it. You go and sit down on the frontmost seat, and try pulling ")
                          print ("on the seatbelt, but fail. Suddenly, an attendant comes from behind and puts ")
                          print ("your seatbelt on for you. Looking up, you realize...")
                          print ("")
@@ -325,16 +322,16 @@ def gibbousLvlFive():
                          print ("")
                          print ("You prefer arcades from roller coasters, honestly. ")
                          print ("Walking into the arcade room, you see glow in the dark games all around you.")
-                         print ("However, you have only one ticket... ")
+                         print ("However, you have only one ticket. ")
                          time.sleep (6)
                          print ("Pulling out your >Compass<, you see it pointing to one of the largest games in the arcade.")
                          print ("The game is called 'ORANGE MOON', with quite a few familiar faces... you see the piano ")
-                         print ("man, the agents, a tiger, the pirate king's sons, and... a bigger scarier looking pirate.")
-                         print ("'Now who could that be...?")
+                         print ("man, the agents, a tiger, the pirate king's sons, and a bigger scarier looking pirate.")
+                         print ("'Now who could that be?")
                          print ("")
                          time.sleep (8)
-                         print ("It's a shooting game; whichever object you shoot, you will win. There's lollipops and...")
-                         print ("an orange key...")
+                         print ("It's a shooting game; whichever object you shoot, you will win. Hanging above")
+                         print ("the prize box is an orange key.")
                          print ("Taking careful aim, you shoot at the orange key... and miss.")
                          print ("")
                          time.sleep (6)
