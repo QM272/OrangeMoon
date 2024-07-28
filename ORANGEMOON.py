@@ -980,7 +980,7 @@ def nomoonLvlOne():
      print ("|            _           ‾‾‾‾‾|")
      print ("|_____________________________|")
      time.sleep (10)
-     print ("'I'll explane how you can travel home... but first, what is your name?'")
+     print ("'I'll explain how you can travel home... but first, what is your name?'")
      name = input("Insert your name, please. ")
      print ("")
      print ("'" + name + ", I see, excellent, excellent. Well, you are currently in level 1.")
